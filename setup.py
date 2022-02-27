@@ -5,18 +5,18 @@ with open("README.md", "r") as fh:
 
 setup(
 	name="TOPSIS-NANDITA-101917191",
-	version='2.0',
+	version='3.0',
 	author='Nandita',
 	author_email='nanditabagga23@gmail.com',
 	description='topsis package for MCDM problems',
 	long_description=long_description,
     long_description_content_type="text/markdown",
     url="https://github.com/NanditaBagga/TOPSIS-NANDITA-101917191",
-    download_url="https://github.com/NanditaBagga/TOPSIS-NANDITA-101917191/archive/refs/tags/2.0.tar.gz",
+    download_url="https://github.com/NanditaBagga/TOPSIS-NANDITA-101917191/archive/refs/tags/3.0.tar.gz",
     packages=find_packages(),
     entry_points={
         'console_scripts': [
-            'topsis=topsis.101917191:main'
+            'topsis=topsis.topsis:main'
         ]
     },
     install_requires=[
